@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #fff5f7;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #f783ac;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .nav-button {
+    background: white;
+    color: #f783ac;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  .nav-button:hover {
+    background: #fa709a;
+    color: white;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background: linear-gradient(135deg, #fad0c4, #ff9a9e);
+  }
+  
+  .hero-text h1 {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  .cta-button {
+    background: white;
+    color: #fa709a;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    border: none;
+  }
+  
+  .cta-button:hover {
+    background: #fa709a;
+    color: white;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 2rem;
+    background: white;
+    text-align: center;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .feature-card {
+    background: #fff5f7;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .feature-card img {
+    width: 50px;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-card h3 {
+    color: #f783ac;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background: #fad0c4;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    color: #f783ac;
+  }
+  
+  .testimonial {
+    margin: 1rem 0;
+  }
+  
+  .testimonial p {
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #f783ac;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .social-icons img {
+    width: 25px;
+    margin: 0 0.5rem;
+  }
+  

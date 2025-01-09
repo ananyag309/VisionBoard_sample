@@ -1,0 +1,46 @@
+.template-selection {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .template-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .template-item {
+    cursor: pointer;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .template-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .template-item img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .selected-template {
+    margin-top: 1.5rem;
+    text-align: center;
+  }
+  
+  .selected-template img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  

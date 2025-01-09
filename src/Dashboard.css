@@ -1,0 +1,51 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+  }
+  
+  .dashboard {
+    padding: 2rem;
+  }
+  
+  .dashboard-header {
+    background: #ff9a9e;
+    padding: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dashboard-header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .dashboard-actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .logout-button {
+    background: white;
+    color: #ff9a9e;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #ff4f6c;
+    color: white;
+  }
+  
+  .vision-board-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  

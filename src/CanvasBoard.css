@@ -1,0 +1,26 @@
+.canvas-board {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .canvas-board h2 {
+    font-size: 1.8rem;
+    color: #ff9a9e;
+  }
+  
+  .canvas-wrapper {
+    margin-top: 2rem;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  canvas {
+    border-radius: 8px;
+  }
+  
